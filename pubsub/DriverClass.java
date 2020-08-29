@@ -41,13 +41,13 @@ public class DriverClass {
 		pubSubService.broadcast();
 
 
-		System.out.println("Message for Cricket subscriber: ");
+		System.out.println("\nMessage for Cricket subscriber: ");
 		footballSubscriber.printMessages();
 
-		System.out.println("Message for Football subscriber: ");
+		System.out.println("\nMessage for Football subscriber: ");
 		cricketSubscriber.printMessages();
 
-		System.out.println("Message for all sports subscriber: ");
+		System.out.println("\nMessage for all sports subscriber: ");
 		allSportsSubscriber.printMessages();
 
 	}
